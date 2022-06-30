@@ -12,4 +12,11 @@ $(document).ready(function(){
         dots: true,
         arrows:false,
      });
+
+     $('.main-infor').slick({
+        slidesToShow: 3,
+        infinite: true,
+        dots: true,
+        arrows:false,
+     });
 });
