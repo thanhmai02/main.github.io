@@ -1,18 +1,38 @@
 .slide {
     background: #d8d8d8;
-   
+    padding: 60px 0;
 
     .row {
-        min-height: 519px;
-       
         // background: rgb(0, 0, 0);
         // background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(33, 66, 102, 1) 32%, rgba(255, 255, 255, 0) 100%);
-        img {
+        .slider {
+            min-height: 375px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
             border-radius: 5px;
+            position: relative;
 
-            width: 380px;
-            height: 375px;
-           
+            h3 {
+                z-index: 9999;
+                color: #ffffff;
+                font-size: 52px;
+                line-height: 38px;
+                text-align: center;
+                letter-spacing: -5.1358857px;
+                margin-bottom: 30px;
+            }
+
+            &::after {
+                content: "";
+                display: block;
+                position: absolute;
+                width: 100%;
+                height: 177.25px;
+                bottom: 0;
+                background: rgb(0, 0, 0);
+                background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(33, 66, 102, 1) 32%, rgba(255, 255, 255, 0) 100%);
+            }
         }
     }
 
