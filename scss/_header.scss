@@ -1,0 +1,74 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    .header-notify {
+        background: #214266;
+        height: 50px;
+    }
+
+    .left {
+        font-size: 14px;
+        justify-content: space-around;
+
+        img {
+            width: 22px;
+            height: 22px;
+
+        }
+
+        .covid {
+            p {
+
+                color: #fcbf6c;
+                line-height: 30px;
+                letter-spacing: -0.0027055px;
+            }
+        }
+
+        a {
+            color: rgba(255, 255, 255, 0.75);
+            line-height: 30px;
+            letter-spacing: -0.0027055px;
+        }
+
+        .staff {
+            color: rgba(255, 255, 255, 0.75);
+            line-height: 30px;
+            letter-spacing: -0.0027055px;
+        }
+    }
+
+    .right {
+        .btn {
+            background: #ee9800;
+        }
+    }
+
+    .header-menu {
+        line-height: 19px;
+
+        letter-spacing: 0.4px;
+        height: 102px;
+        font-size: 15px;
+
+        .nav-pills {
+
+            a {
+                color: #fff;
+                background-color: transparent;
+
+                &:hover {
+                    color: #ee9800;
+                }
+            }
+        }
+
+        img {
+            width: 82px;
+            height: 82px;
+        }
+    }
+}

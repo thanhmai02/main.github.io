@@ -1,0 +1,28 @@
+.banner {
+
+    .row {
+        min-height: 186px;
+
+        .col-2 {
+            text-align: center;
+
+            img {
+                width: 67px;
+                height: 63px;
+
+            }
+
+            p {
+                margin-bottom: 0;
+                color: #333132;
+                font-family: "Source Sans Pro";
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 16px;
+                text-align: center;
+                letter-spacing: 1.246667px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}

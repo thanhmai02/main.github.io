@@ -1,0 +1,39 @@
+.about {
+    background: #dcdddf;
+    min-height: 655px;
+
+    .col-8 {
+
+        h2 {
+            max-width: 690px;
+            color: #214266;
+            font-size: 52px;
+            line-height: 52px;
+            text-transform: uppercase;
+            letter-spacing: -5.1358857px;
+            margin-top: 60px;
+        }
+
+        p {
+            max-width: 720px;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: -0.003865px;
+            margin-top: 60px;
+        }
+
+        .read {
+            margin-top: 60px;
+            .btn {
+                width: 180px;
+                height: 55px;
+                border-radius: 5px;
+                border: solid #214266;
+                color: #214266;
+                font-size: 15px;
+                line-height: 19px;
+
+            }
+        }
+    }
+}
