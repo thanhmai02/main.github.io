@@ -1,0 +1,53 @@
+.scoop {
+    background: #dcdddf;
+
+    h2 {
+        padding-top: 50px;
+        color: #214266;
+        font-size: 52px;
+        line-height: 38px;
+        text-transform: uppercase;
+        letter-spacing: -5.1358857px;
+    }
+
+    .row {
+        margin-top: 50px;
+        padding-bottom: 100px;
+
+        .card {
+            min-height: 458.75px;
+
+            img {
+                min-height: 240px;
+            }
+
+            .card-body {
+                display: flex;
+                flex-direction: column;
+
+                .card-title {
+                    margin-top: 15px;
+                    color: #214266;
+                    font-size: 24px;
+                    line-height: 30px;
+                }
+
+                .card-text {
+                    align-items: center;
+                    margin-top: 15px;
+                    font-size: 16px;
+                    line-height: 20px;
+                    letter-spacing: 0.219728px;
+                }
+
+                .more {
+                    color: #ee9800;
+                    font-size: 16px;
+                    line-height: 20px;
+                    margin-top: auto;
+                }
+            }
+        }
+
+    }
+}
