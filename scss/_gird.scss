@@ -1,0 +1,12 @@
+.container {
+    max-width: 1220px;
+    padding: 0 20px;
+}
+
+.row{
+    margin: 0 -10px;
+}
+
+.col, [class*=col-] {
+    padding: 0 10px;
+}

@@ -1,0 +1,92 @@
+.footer {
+    background: #214266;
+
+    .allfoot {
+        padding: 70px 0;
+        .fin {
+            .firstfoot {
+                h3 {
+                    color: #ffffff;
+                    font-size: 19px;
+                    line-height: 24px;
+                    text-transform: uppercase;
+                }
+    
+                a {
+                    color: #ffffff;
+                    font-size: 30px;
+                    line-height: 38px;
+                }
+    
+                p {
+                    max-width: 114.77px;
+                    color: #ffffff;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+    
+                .btn {
+                    min-height: 55px;
+                    ;
+                    color: #214266;
+                    font-size: 15px;
+                    line-height: 19px;
+                    border-radius: 5px;
+                    background: #ffffff;
+                }
+    
+                .name {
+    
+                    .form-control {
+                        width: 250px;
+                        height: 55px;
+                        border-radius: 5px;
+                        background: #ffffff;
+                        color: #a8a9ad;
+                        font-size: 15px;
+                        line-height: 19px;
+                    }
+    
+                }
+    
+                .email {
+                    .input-group-prepend {
+                        .input-group-text {
+                            background: #1b3759;
+                            color: #ffffff;
+                            font-size: 15px;
+                            line-height: 19px;
+                            border: none;
+                        }
+    
+                    }
+                }
+            }
+        }
+    
+        .second {
+            margin-top: 50px;
+            .sefoot {
+                p {
+                    color: #ffffff;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+    
+            .cards {
+                background: #214266;
+                border: none;
+    
+                li {
+    
+                    list-style: none;
+                    color: #ffffff;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+    
+            }
+        }
+    }
+}

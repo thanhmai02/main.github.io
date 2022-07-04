@@ -1,0 +1,61 @@
+.foot {
+    background: #214266;
+    border-bottom: 1px gray solid;
+    .row {
+        padding: 20px 0;
+        .logo {
+            img {
+                width: 112px;
+                height: 112px;
+            }
+           
+        }
+        .cafoot {
+        
+            .day {
+                height: 81px;
+                width: 119px;
+                background: #1c385a;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+               
+                    p {
+                        opacity: 0.7;
+                        color: #ffffff;
+                        font-size: 12px;
+                        line-height: 15px;
+                        text-transform: uppercase;
+                        letter-spacing: 0.814796px;
+                    }
+                
+        
+                
+                    h2 {
+                        text-transform: uppercase;
+                        color: #ffffff;
+                        font-size: 26px;
+                        line-height: 33px;
+                    }
+              
+            }
+        
+            .check {
+                width: 202px;
+                height: 81px;
+                background: #ee9800;
+        
+               h3 {
+                
+                    color: #ffffff;
+                    font-size: 16px;
+                    line-height: 20px;
+                    text-transform: uppercase;
+        
+                
+               }
+            }
+        }
+    }
+}

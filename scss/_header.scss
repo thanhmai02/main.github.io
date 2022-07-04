@@ -15,6 +15,7 @@
         justify-content: space-around;
 
         img {
+            margin-left: 24px;
             width: 22px;
             height: 22px;
 
@@ -24,7 +25,7 @@
             p {
 
                 color: #fcbf6c;
-                line-height: 30px;
+                line-height: 22px;
                 letter-spacing: -0.0027055px;
             }
         }
@@ -37,13 +38,14 @@
 
         .staff {
             color: rgba(255, 255, 255, 0.75);
-            line-height: 30px;
+            line-height: 28px;
             letter-spacing: -0.0027055px;
         }
     }
 
     .right {
         .btn {
+            margin-right: 15px;
             background: #ee9800;
         }
     }
@@ -58,6 +60,8 @@
         .nav-pills {
 
             a {
+               
+                margin-top: 20px;
                 color: #fff;
                 background-color: transparent;
 

@@ -1,17 +1,20 @@
 .slide {
-    background: #d8d8d8;
-    padding: 60px 0;
+    // border-bottom: solid gray 1px;
+    
+    padding: 72px 0;
+    padding-bottom: 97px;
 
     .row {
         // background: rgb(0, 0, 0);
         // background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(33, 66, 102, 1) 32%, rgba(255, 255, 255, 0) 100%);
         .slider {
-            min-height: 375px;
+            min-height: 373px;
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;
             border-radius: 5px;
             position: relative;
+            
 
             h3 {
                 z-index: 9999;
@@ -20,7 +23,7 @@
                 line-height: 38px;
                 text-align: center;
                 letter-spacing: -5.1358857px;
-                margin-bottom: 30px;
+                margin-bottom: 23px;
             }
 
             &::after {
@@ -33,6 +36,9 @@
                 background: rgb(0, 0, 0);
                 background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(33, 66, 102, 1) 32%, rgba(255, 255, 255, 0) 100%);
             }
+        }
+        .slick-dots {
+            bottom: -71px;
         }
     }
 
