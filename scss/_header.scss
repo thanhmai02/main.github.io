@@ -77,3 +77,18 @@
         }
     }
 }
+@media screen and (max-width: 1199px)  {
+ .header {
+    .left {
+        display: none !important;
+    }
+    .right {
+        .btn-group {
+            margin-right: auto;
+        }
+    }
+ }
+ .header-menu {
+    display: none;
+ }
+}

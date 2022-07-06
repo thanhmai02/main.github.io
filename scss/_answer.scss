@@ -1,9 +1,12 @@
 .answer {
-    padding: 50px 0;
+    padding: 38px 0;
     background: #dcdddf;
+
     .ans {
         .text {
             h2 {
+                margin-top: 10px;
+                margin-left: -5px;
                 color: #214266;
                 font-size: 42px;
                 line-height: 31px;
@@ -14,11 +17,17 @@
 
         .see {
             margin-left: 20px;
+
             img {
-                margin-right: 20px;
+                margin-right: 48px;
+                max-width: 77px;
+                margin-left: 25px;
             }
 
             .btn {
+                max-width: 149px;
+                min-height: 47px;
+                margin-top: -6px;
                 color: #ffffff;
                 font-size: 15px;
                 line-height: 19px;
@@ -28,3 +37,41 @@
         }
     }
 }
+@media screen and (max-width: 1199px)  {
+    .answer {
+        .ans {
+            flex-direction: column;
+            .text {
+                h2{
+                    text-align: center;
+                }
+
+            }
+            .see {
+                img{
+                    display: none;
+                }
+                .btn{
+                    max-width: 180px;
+                    font-size: 21px;
+                    margin: auto;
+                    min-height: 62px;
+                    margin-top: 40px;
+                }
+            }
+        }
+    }
+   }
+@media screen and (max-width: 991px)  {
+    .answer {
+        .ans {
+            .text {
+                h2{
+                     font-size: 39px;
+                     letter-spacing: -3.348215px;
+                     line-height: 38px;
+                }
+            }
+        }
+    }
+   }

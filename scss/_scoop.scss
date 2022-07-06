@@ -1,8 +1,14 @@
 .scoop {
-    background: #dcdddf;
+    background: rgba($color: #dcdddf, $alpha: .3);
+    padding-bottom: 30px;
+
+    .slick-dots {
+        bottom: 26px;
+    }
 
     h2 {
-        padding-top: 50px;
+        margin-left: -4px;
+        padding-top: 73px;
         color: #214266;
         font-size: 52px;
         line-height: 38px;
@@ -13,20 +19,31 @@
     .row {
         margin-top: 50px;
         padding-bottom: 100px;
+        margin-bottom: 0;
 
         .card {
             min-height: 458.75px;
 
             img {
-                min-height: 240px;
+                max-width: 100%;
+                max-height: 240px;
+
+                &:first-child,
+                &:last-child {
+                    min-height: 240px;
+                }
             }
 
             .card-body {
                 display: flex;
                 flex-direction: column;
+                // max-width: 296px;
+                padding: 20px 38px;
 
                 .card-title {
-                    margin-top: 15px;
+                    max-width: 296px;
+                    margin-top: 10px;
+
                     color: #214266;
                     font-size: 24px;
                     line-height: 30px;
@@ -41,6 +58,7 @@
                 }
 
                 .more {
+                    margin-bottom: 12px;
                     color: #ee9800;
                     font-size: 16px;
                     line-height: 20px;
@@ -49,5 +67,24 @@
             }
         }
 
+    }
+}
+@media screen and (max-width: 991px) {
+    .scoop {
+        h2 {
+            line-height: 55px;
+            max-width: 680px;
+            margin: auto;
+            text-align: center;
+        }
+    }
+}
+@media screen and (max-width: 575px) {
+    .scoop {
+        h2 {
+            font-size: 42px;
+            line-height: 45px;
+            
+        }
     }
 }

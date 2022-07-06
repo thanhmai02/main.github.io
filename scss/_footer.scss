@@ -2,7 +2,8 @@
     background: #214266;
 
     .allfoot {
-        padding: 70px 0;
+        padding: 58px 0;
+
         .fin {
             .firstfoot {
                 h3 {
@@ -10,83 +11,116 @@
                     font-size: 19px;
                     line-height: 24px;
                     text-transform: uppercase;
+                    &:last-child {
+                        margin-left: 100px;
+                    }
                 }
-    
+
                 a {
+                    letter-spacing: -1.6px;
                     color: #ffffff;
                     font-size: 30px;
-                    line-height: 38px;
+                    line-height: 39.5px;
                 }
-    
+
                 p {
+                    margin-top: 6px;
                     max-width: 114.77px;
                     color: #ffffff;
                     font-size: 16px;
-                    line-height: 20px;
+                    line-height: 22.4px;
                 }
-    
+
                 .btn {
+                    width: 218px;
                     min-height: 55px;
-                    ;
+                    margin-top: -3px;
                     color: #214266;
                     font-size: 15px;
                     line-height: 19px;
                     border-radius: 5px;
                     background: #ffffff;
                 }
-    
+
                 .name {
-    
-                    .form-control {
-                        width: 250px;
-                        height: 55px;
-                        border-radius: 5px;
-                        background: #ffffff;
-                        color: #a8a9ad;
-                        font-size: 15px;
-                        line-height: 19px;
-                    }
-    
-                }
-    
-                .email {
-                    .input-group-prepend {
-                        .input-group-text {
-                            background: #1b3759;
-                            color: #ffffff;
+
+                    .two {
+                        
+
+                        .form-control {
+                            margin-right: 18px;
+                            max-width: 231px;
+                            height: 56px;
+                            margin-top: 4px;
+                            border-radius: 5px;
+                            background: #ffffff;
+                            color: #a8a9ad;
                             font-size: 15px;
                             line-height: 19px;
-                            border: none;
                         }
-    
+                    }
+
+                }
+
+                .email {
+                  
+                    .input-group {
+                        max-width: 100%;
+                        margin-top: 4px;
+                        .form-control {
+                            min-height: 55px;
+                        }
+                        .input-group-prepend {
+                            .input-group-text {
+                                background: #1b3759;
+                                color: #ffffff;
+                                font-size: 15px;
+                                line-height: 19px;
+                                border: none;
+                            }
+
+                        }
                     }
                 }
             }
         }
-    
+
         .second {
             margin-top: 50px;
+
             .sefoot {
                 p {
+                    
                     color: #ffffff;
                     font-size: 16px;
                     line-height: 20px;
                 }
             }
-    
+
             .cards {
                 background: #214266;
                 border: none;
-    
+                flex-wrap: wrap;
+
                 li {
-    
+
                     list-style: none;
                     color: #ffffff;
                     font-size: 16px;
                     line-height: 20px;
                 }
-    
+
             }
         }
     }
 }
+@media screen and (max-width: 1199px)  {
+    .allfoot {
+        .fin{
+            
+        }
+        .second {
+
+        }
+    }
+   }

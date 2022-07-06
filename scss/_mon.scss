@@ -42,16 +42,45 @@
         width: 202px;
         height: 81px;
         background: #ee9800;
+        color: #ffffff;
 
 
         h3 {
-
-            color: #ffffff;
             font-size: 16px;
             line-height: 20px;
             text-transform: uppercase;
 
-
+            
+        }
+        &:hover{
+            background-color: #ffffff;
+            color: #ee9800;
+            border: solid 2px #ee9800;
+            cursor: pointer;
+            transition:   all linear .4s;
         }
     }
 }
+@media screen and (max-width: 450px)  {
+    .calen {
+        left: 0;
+        right: 0;
+        transform: none;
+        .day{
+            width: 110px;
+            padding-left: 10px;
+            p{
+                font-size: 9px;
+            }
+            h2{
+                font-size: 20px;
+            }
+        }
+        .check {
+            width: 170px;
+            h3{
+                font-size: 13px;
+            }
+        }
+    }
+   }

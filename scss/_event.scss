@@ -39,3 +39,18 @@
     }
 
 }
+@media screen and (max-width: 320px)  {
+    .event {
+        .wine{
+            h1{
+                max-width: 300px;
+                
+            }
+        }
+    }
+   }
+   @media screen and (max-width: 767px)  {
+    .event {
+        min-height: 645px;
+    }
+   }
