@@ -11,6 +11,7 @@
                     font-size: 19px;
                     line-height: 24px;
                     text-transform: uppercase;
+
                     &:last-child {
                         margin-left: 100px;
                     }
@@ -45,7 +46,7 @@
                 .name {
 
                     .two {
-                        
+
 
                         .form-control {
                             margin-right: 18px;
@@ -63,13 +64,15 @@
                 }
 
                 .email {
-                  
+
                     .input-group {
                         max-width: 100%;
                         margin-top: 4px;
+
                         .form-control {
                             min-height: 55px;
                         }
+
                         .input-group-prepend {
                             .input-group-text {
                                 background: #1b3759;
@@ -90,7 +93,7 @@
 
             .sefoot {
                 p {
-                    
+
                     color: #ffffff;
                     font-size: 16px;
                     line-height: 20px;
@@ -114,61 +117,104 @@
         }
     }
 }
-@media screen and (max-width: 991px)  {
+
+@media screen and (max-width: 991px) {
     .allfoot {
-        .fin{
-            .firstfoot{
-               
+        .fin {
+            .firstfoot {
+
                 .find-us {
                     margin-bottom: 30px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+                    p{
+
+                        text-align: center;
+                    }
                 }
+
                 .contact-us {
                     margin-bottom: 30px;
                     display: flex;
                     flex-direction: column;
                     align-items: center;
-                    p{
+
+                    p {
                         max-width: 100%;
                     }
                 }
+
                 .notified {
                     display: flex;
                     flex-direction: column;
                     align-items: center;
+
                     .name {
-                        .two{
+                        .two {
                             .mb-3 {
-                                margin-right: 10px;
+
                                 .form-control {
+                                    margin-right: 0;
                                     padding: 0 25px;
                                 }
+                            }
+                        }
+
+                        .email {
+                            .input-group {
+                                display: flex;
+
+                                .form-control {
+                                    width: 100%;
+                                    margin-bottom: 20px;
+                                }
+
+                                .input-group-prepend {
+                                    width: 100%;
+
+                                    .input-group-text {
+                                        text-align: center;
+                                        display: inline-block;
+                                        line-height: 55px;
+                                        width: 100%;
+                                        min-height: 55px;
+                                    }
+
+                                }
+
                             }
                         }
                     }
                 }
             }
         }
+
         .second {
-            .sefoot{
+            .sefoot {
                 flex-direction: column-reverse;
-                .pri{
-                    .cards{
+
+                .pri {
+                    .cards {
                         flex-direction: column;
                         justify-content: center;
                         align-items: center;
-                        li{
+
+                        li {
                             margin-bottom: 20px;
                         }
                     }
                 }
-                .way{
+
+                .way {
                     display: flex;
                     justify-content: center;
+
+                    p {
+                        text-align: center;
+                    }
                 }
             }
         }
     }
-   }
+}

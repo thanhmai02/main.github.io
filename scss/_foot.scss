@@ -17,6 +17,7 @@
 
         .cafoot {
             margin-top: 18px;
+
             .day {
                 height: 81px;
                 width: 139px;
@@ -53,12 +54,12 @@
             }
 
             .check {
-                width: 202px;
+                padding: 0  20px;
                 height: 81px;
                 background: #ee9800;
 
                 h3 {
-
+                    
                     color: #ffffff;
                     font-size: 16px;
                     line-height: 20px;
@@ -70,53 +71,71 @@
         }
     }
 }
-@media screen and (max-width: 991px)  {
+
+@media screen and (max-width: 991px) {
     .foot {
         border-bottom: none;
+
         .logofoot {
             padding: 0;
             flex-direction: column-reverse;
             align-items: center;
-            .logo{
-                display: flex;
-                justify-content: center;
-                img{
-                    margin-top: 30px;
+
+            .logoside {
+                .logo {
+                    display: flex;
+                    justify-content: center;
+
+                    img {
+                        margin-top: 30px;
+                    }
                 }
             }
-            .cafoot {
+
+            .availa {
                 display: flex;
                 justify-content: center;
-                margin-top: 0;
+
+                .cafoot {
+                    display: flex;
+                    justify-content: center;
+                    margin-top: 0;
+                }
             }
         }
     }
-   }
-   @media screen and (max-width: 575px)  {
-    .foot{
-       
-        .logofoot{
+}
+
+@media screen and (max-width: 575px) {
+    .foot {
+
+        .logofoot {
             .cafoot {
                 left: 0;
                 right: 0;
                 transform: none;
-                .day{
+
+                .day {
                     width: 110px;
                     padding-left: 10px;
-                    p{
+
+                    p {
                         font-size: 9px;
                     }
-                    h2{
+
+                    h2 {
                         font-size: 20px;
                     }
                 }
+
                 .check {
-                    width: 170px;
-                    h3{
-                        font-size: 13px;
+                   padding: 0  10px;
+
+                    h3 {
+                        font-size: 11px;
                     }
                 }
             }
         }
     }
-   }
+}
