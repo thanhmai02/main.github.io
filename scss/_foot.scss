@@ -2,7 +2,7 @@
     background: #214266;
     border-bottom: 1px gray solid;
 
-    .row {
+    .logofoot {
         padding: 20px 0;
 
         .logo {
@@ -70,3 +70,53 @@
         }
     }
 }
+@media screen and (max-width: 991px)  {
+    .foot {
+        border-bottom: none;
+        .logofoot {
+            padding: 0;
+            flex-direction: column-reverse;
+            align-items: center;
+            .logo{
+                display: flex;
+                justify-content: center;
+                img{
+                    margin-top: 30px;
+                }
+            }
+            .cafoot {
+                display: flex;
+                justify-content: center;
+                margin-top: 0;
+            }
+        }
+    }
+   }
+   @media screen and (max-width: 575px)  {
+    .foot{
+       
+        .logofoot{
+            .cafoot {
+                left: 0;
+                right: 0;
+                transform: none;
+                .day{
+                    width: 110px;
+                    padding-left: 10px;
+                    p{
+                        font-size: 9px;
+                    }
+                    h2{
+                        font-size: 20px;
+                    }
+                }
+                .check {
+                    width: 170px;
+                    h3{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+    }
+   }

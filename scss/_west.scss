@@ -1,48 +1,50 @@
 .west {
-    
-        .explore {
-            display: flex;
-    justify-content: center;
-    align-items: center;
 
-            padding: 50px 0 45px 0;
+    .explore {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-            img {
-                margin-top: -6px;
-                margin-left: -5px;
-                margin-right: 45px;
-                max-width: 100%;
-                min-height: 84px;
-            }
+        padding: 50px 0 45px 0;
 
-            .btn {
-                min-height: 59px;
-                max-width: 100%;
-                margin-top: -4px;
-                border-radius: 5px;
-                background: #214266;
-                border: solid #ffffff;
-                color: #ffffff;
-                font-size: 15px;
-                line-height: 19px;
-            }
+        img {
+            margin-top: -6px;
+            margin-left: -5px;
+            margin-right: 45px;
+            max-width: 100%;
+            min-height: 84px;
         }
+
+        .btn {
+            min-height: 59px;
+            max-width: 100%;
+            margin-top: -4px;
+            border-radius: 5px;
+            background: #214266;
+            border: solid #ffffff;
+            color: #ffffff;
+            font-size: 15px;
+            line-height: 19px;
+        }
+    }
 
 }
 
 @media screen and (max-width: 575px) {
     .west {
         .explore {
-        
+
             margin: auto;
             display: flex;
             flex-direction: column;
-            img{
+
+            img {
                 max-width: 253px;
                 margin-right: 0;
                 margin-bottom: 30px;
             }
-            .btn-group{
+
+            .btn-group {
                 width: 100%;
             }
         }
