@@ -1,625 +1,735 @@
 <!DOCTYPE html>
 <html lang="en">
+     <head>
+          <meta charset="UTF-8" />
+          <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+          <link
+               rel="stylesheet"
+               href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+               integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+               crossorigin="anonymous"
+          />
+          <title>Final</title>
+          <link
+               rel="icon"
+               href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShn-t_-gq57Rf6XCChV3okQ8_hB_VtF8jQ7A&usqp=CAU"
+               type="image/x-icon"
+          />
+          <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+          <link
+               rel="stylesheet"
+               href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+               integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+               crossorigin="anonymous"
+               referrerpolicy="no-referrer"
+          />
+          <link rel="stylesheet" href="/css/index.css" />
+     </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
-        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <title>Final</title>
-    <link rel="icon"
-        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShn-t_-gq57Rf6XCChV3okQ8_hB_VtF8jQ7A&usqp=CAU"
-        type="image/x-icon" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
-        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/css/index.css">
-</head>
-
-<body>
-    <header class="header">
-        <div class="header-notify">
-            <div class="container h-100">
-                <div class="row align-items-center h-100">
-                    <div class="col-6 left d-flex align-items-center">
-                        <img src="/image/Bitmap.png" alt="#">
-                        <div class="covid source-senmi">
-                            <p class="m-0">COVID-19 ADVISORY</p>
-                        </div>
-                        <div class="staff source-re d-flex">
-                            <p class="m-0">All of our staff are fully vaccinated against COVID-19.</p>
-                            <a href="#">Learn More</a>
-                        </div>
-                    </div>
-                    <div class="col-6 h-100 right d-flex justify-content-end">
-                        <div class="btn-group dropright ">
-                            <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                                aria-expanded="false">
-                                BOOK NOW
-                            </button>
-                            <div class="dropdown-menu">
-                                <!-- Dropdown menu links -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="header-menu source-senmi">
-            <div class="container h-100 ">
-                <div class="row d-flex align-items-center ">
-                    <div class="col-4">
-                        <ul class="nav nav-pills " id="pills-tab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="pills-stay-tab" data-toggle="pill" href="#pills-stay"
-                                    role="tab" aria-controls="pills-stay" aria-selected="true">STAY</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-experience-tab" data-toggle="pill"
-                                    href="#pills-experience" role="tab" aria-controls="pills-experience"
-                                    aria-selected="false">EXPERIENCE</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-dine-tab" data-toggle="pill" href="#pills-dine" role="tab"
-                                    aria-controls="pills-dine" aria-selected="false">DINE</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-explore-tab" data-toggle="pill" href="#pills-explore"
-                                    role="tab" aria-controls="pills-explore" aria-selected="false">EXPLORE</a>
-                            </li>
-                        </ul>
-
-                    </div>
-                    <div class="col-4 d-flex justify-content-center">
-                        <img src="/image/Logo-sidewaysinn.webp" alt="#">
-                    </div>
-                    <div class="col-4 d-flex justify-content-end">
-                        <ul class="nav nav-pills " id="pills-tab" role="tablist">
-                            <li class="nav-item">
-                                <a class="nav-link active" id="pills-stay-tab" data-toggle="pill" href="#pills-stay"
-                                    role="tab" aria-controls="pills-stay" aria-selected="true">PLANANEVENT</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-experience-tab" data-toggle="pill"
-                                    href="#pills-experience" role="tab" aria-controls="pills-experience"
-                                    aria-selected="false">OFFER</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" id="pills-dine-tab" data-toggle="pill" href="#pills-dine" role="tab"
-                                    aria-controls="pills-dine" aria-selected="false">SHOP</a>
-                            </li>
-
-                        </ul>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </header>
-    <main>
-        <section class="event d-flex align-items-center justify-content-center"
-            style="background-image: url(./image/banner.jpg);">
-            <div class="text container">
-                <div class="wine mb-0 alien-bold">
-                    <h1>wine country, windmills <br> and a little wild west spirit</h1>
-                </div>
-                <div class="bouti source-senmi">
-                    <p>A boutique hotel in the heart of Buellton where pets, wedding parties and palates of all kinds
-                        are welcome</p>
-                </div>
-            </div>
-        </section>
-        <div class="calen d-flex align-items-end justify-content-center ">
-            <div class=" day d-flex">
-
-                <p class="source-senmi mb-0 ">arrive on</p>
-
-
-                <h2><span class="source-bold mb-0">22</span> <span class="source-re">apr</span></h2>
-
-            </div>
-            <div class=" day d-flex">
-
-                <p class="source-senmmi mb-0">depart on</p>
-
-                <h2><span class="source-bold mb-0">28</span> <span class="source-re">apr</span></h2>
-            </div>
-            <div class=" check d-flex align-items-center justify-content-center">
-
-                <h3 class="source-bold mb-0">check availability</h3>
-
-            </div>
-        </div>
-        <section>
-            <div class="banner" >
-                <div class="container">
-                    <div class="row slide0 d-flex align-items-center">
-                        <div class="col-2">
-                            <div class="ban">
-                                <img src="/image/1.png" alt="#">
-                                <p>hiking activities</p>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="ban">
-                                <img src="/image/2.png" alt="#">
-                                <p>jacuzzi & spa</p>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="ban">
-                                <img src="/image/3.png" alt="#">
-                                <p>restaurent & bar</p>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="ban">
-                                <img src="/image/4.png" alt="#">
-                                <p>livebbq sessions</p>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="ban">
-                                <img src="/image/5.png" alt="#">
-                                <p>guided paragliding</p>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="ban">
-                                <img src="/image/6.png" alt="#">
-                                <p>yoga & meditation</p>
-                            </div>
-                        </div>
-                        <div class="col-2">
-                            <div class="ban">
-                                <img src="/image/4.png" alt="#">
-                                <p>livebbq sessions</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section>
-            <div class="about">
-                <div class="container">
-                    <div class="row">
-                        <div class=" col-12  col-lg-8 picture">
-                            <h2 class="alien-bold mb-0 ">a picture - perfect place to stay <br> in the heart of the santa ynez
-                                valley</h2>
-                            <p class="source-re mb-0 ">If a photo's worth a thousand words, then Sideways Inn must be
-                                worth a whole library. From the first time you walk into our windmill lobby to the last
-                                sip of your nightcap at Sideways Lounge, you’ll find more photo opportunities than you
-                                ever fathomed. Like personal portraits at the pool. And group shots in front of giant
-                                murals. And candid family photos around the fire pit. We’ve strategically designed our
-                                grounds to provide charm around every corner and beauty from every angle. Because when
-                                you’re located in a place as picturesque as the Santa Ynez Valley, it takes a lot of
-                                work to stand out.
-                            </p>
-                            <div class="read d-flex justify-content-between align-items-center">
-                                <button type="button" class="btn btn-outline-secondary source-bold">READ FULL
-                                    STORY</button>
-                                <img src="/image/read.png" alt="#">
-                            </div>
-                        </div>
-                        <div class="col-12 col-lg-4 picimg">
-                            <h2 class="alien-bold mb-0 ">a picture - perfect place to stay <br> in the heart of the santa ynez
-                                valley</h2>
-                            <div class="img-ab" style="background-image: url('/image/image.png');">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="slide">
-            <div class="container">
-                <div class="row slide1">
-                    <div class="col-12 col-md-4">
-                        <div class="slider d-flex align-items-end justify-content-center"
-                            style="background-image: url(image/slide1.png);">
-                            <h3 class="aline-light">STAY</h3>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="slider d-flex align-items-end justify-content-center"
-                            style="background-image: url(image/slide2.png);">
-                            <h3 class="aline-light">EXPRIENCE</h3>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="slider d-flex align-items-end justify-content-center"
-                            style="background-image: url(image/slide3.png);">
-                            <h3 class="aline-light">DINE</h3>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="slider d-flex align-items-end justify-content-center"
-                            style="background-image: url(image/slide2.png);">
-                            <h3 class="aline-light">EXPRIENCE</h3>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section class="infor">
-            <div class="container">
-                <h2 class="alien-bold">check out what guests had to say after checking out</h2>
-                <div class=" row main-infor ">
-                    <div class="col-4 ">
-                        <div class="jessica">
-                            <div class="both-jes">
-                                <div class="infi d-flex justify-content-between">
-                                    <div class="imgin d-flex">
-                                        <img src="/image/jessica.png" alt="#">
-                                        <div class="starin">
-                                            <div class="star d-flex">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                            </div>
-                                            <h3 class="source-re">Jessica Sowers</h3>
+     <body>
+          <header class="header">
+               <div class="header-notify">
+                    <div class="container h-100">
+                         <div class="row align-items-center h-100">
+                              <div class="col-6 left d-flex align-items-center">
+                                   <img src="/image/Bitmap.png" alt="#" />
+                                   <div class="covid source-senmi">
+                                        <p class="m-0">COVID-19 ADVISORY</p>
+                                   </div>
+                                   <div class="staff source-re d-flex">
+                                        <p class="m-0">All of our staff are fully vaccinated against COVID-19.</p>
+                                        <a href="#">Learn More</a>
+                                   </div>
+                              </div>
+                              <div class="col-6 h-100 right d-flex justify-content-end">
+                                   <div class="btn-group dropright">
+                                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                             BOOK NOW
+                                        </button>
+                                        <div class="dropdown-menu">
+                                             <!-- Dropdown menu links -->
                                         </div>
-                                    </div>
-                                    <img src="/image/google.png" alt="">
-                                </div>
-                                <p class="source-re">This place is so yummy with friendly staff and fast service.
-                                    Definitely
-                                    recommend to any visitors to Volcano!
-                                </p>
-                            </div>
-                        </div>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
-                    <div class="col-4 ">
-                        <div class="jessica">
-                            <div class="both-jes">
-                                <div class="infi d-flex justify-content-between">
-                                    <div class="imgin d-flex">
-                                        <img src="/image/jimmy.png" alt="#">
-                                        <div class="starin">
-                                            <div class="star d-flex">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                            </div>
-                                            <h3 class="source-re">Jimmy Kim</h3>
+               </div>
+               <div class="header-menu source-senmi">
+                    <div class="container h-100">
+                         <div class="row d-flex align-items-center">
+                              <div class="col-5">
+                                   <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                        <li class="nav-item">
+                                             <a
+                                                  class="nav-link active"
+                                                  id="pills-stay-tab"
+                                                  data-toggle="pill"
+                                                  href="#pills-stay"
+                                                  role="tab"
+                                                  aria-controls="pills-stay"
+                                                  aria-selected="true"
+                                                  >STAY</a
+                                             >
+                                        </li>
+                                        <li class="nav-item">
+                                             <a
+                                                  class="nav-link"
+                                                  id="pills-experience-tab"
+                                                  data-toggle="pill"
+                                                  href="#pills-experience"
+                                                  role="tab"
+                                                  aria-controls="pills-experience"
+                                                  aria-selected="false"
+                                                  >EXPERIENCE</a
+                                             >
+                                        </li>
+                                        <li class="nav-item">
+                                             <a
+                                                  class="nav-link"
+                                                  id="pills-dine-tab"
+                                                  data-toggle="pill"
+                                                  href="#pills-dine"
+                                                  role="tab"
+                                                  aria-controls="pills-dine"
+                                                  aria-selected="false"
+                                                  >DINE</a
+                                             >
+                                        </li>
+                                        <li class="nav-item">
+                                             <a
+                                                  class="nav-link"
+                                                  id="pills-explore-tab"
+                                                  data-toggle="pill"
+                                                  href="#pills-explore"
+                                                  role="tab"
+                                                  aria-controls="pills-explore"
+                                                  aria-selected="false"
+                                                  >EXPLORE</a
+                                             >
+                                        </li>
+                                   </ul>
+                              </div>
+                              <div class="col-2 d-flex justify-content-center">
+                                   <img src="/image/Logo-sidewaysinn.webp" alt="#" />
+                              </div>
+                              <div class="col-5 d-flex justify-content-end">
+                                   <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                        <li class="nav-item">
+                                             <a
+                                                  class="nav-link active"
+                                                  id="pills-stay-tab"
+                                                  data-toggle="pill"
+                                                  href="#pills-stay"
+                                                  role="tab"
+                                                  aria-controls="pills-stay"
+                                                  aria-selected="true"
+                                                  >PLANANEVENT</a
+                                             >
+                                        </li>
+                                        <li class="nav-item">
+                                             <a
+                                                  class="nav-link"
+                                                  id="pills-experience-tab"
+                                                  data-toggle="pill"
+                                                  href="#pills-experience"
+                                                  role="tab"
+                                                  aria-controls="pills-experience"
+                                                  aria-selected="false"
+                                                  >OFFER</a
+                                             >
+                                        </li>
+                                        <li class="nav-item">
+                                             <a
+                                                  class="nav-link"
+                                                  id="pills-dine-tab"
+                                                  data-toggle="pill"
+                                                  href="#pills-dine"
+                                                  role="tab"
+                                                  aria-controls="pills-dine"
+                                                  aria-selected="false"
+                                                  >SHOP</a
+                                             >
+                                        </li>
+                                   </ul>
+                              </div>
+                         </div>
+                    </div>
+               </div>
+
+               <div class="header-menu-mobile">
+                    <div class="container">
+                         <div class="main-header-navigation">
+                              <div class="navigation-logo">
+                                   <div class="logo">
+                                        <a href="/" ll_outbound_click_scanned="true"
+                                             ><img src="/image/Logo-sidewaysinn.webp" alt="logo header"
+                                        /></a>
+                                   </div>
+                              </div>
+
+                              <span class="navigation-menu-text">Menu</span>
+
+                              <div class="navigation-menu-toggle">
+                                   <span></span>
+                                   <span></span>
+                                   <span></span>
+                              </div>
+                         </div>
+                    </div>
+                    <div class="menu-mobile-wrapper">
+                         <div class="menu-mobile">
+                              <div class="menu-mobile-close">
+                                   <span>Close</span>
+                                   <img
+                                        class="menu-mobile-close-icon"
+                                        src="https://sidewaysinn.com/wp-content/themes/highway2021/assets/images/icon_close.svg"
+                                        alt="Icon Close"
+                                   />
+                              </div>
+                              <ul id="menu-header-menu-left-1" class="menu">
+                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-768">
+                                        <a href="https://sidewaysinn.com/rooms/" ll_outbound_click_scanned="true">Stay</a>
+                                   </li>
+                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-669">
+                                        <a href="https://sidewaysinn.com/amenities/" ll_outbound_click_scanned="true">Experience</a>
+                                   </li>
+                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-769">
+                                        <a href="https://sidewaysinn.com/restaurant/" ll_outbound_click_scanned="true">Dine</a>
+                                   </li>
+                              </ul>
+                              <ul id="menu-header-menu-right-1" class="menu">
+                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-770">
+                                        <a href="https://sidewaysinn.com/activities/" ll_outbound_click_scanned="true">Explore</a>
+                                   </li>
+                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-609">
+                                        <a href="https://sidewaysinn.com/offers/" ll_outbound_click_scanned="true">Offers</a>
+                                   </li>
+                                   <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-771">
+                                        <a href="https://sidewaysinn.com/events/" ll_outbound_click_scanned="true">Plan an Event</a>
+                                   </li>
+                              </ul>
+                         </div>
+                         <div class="menu-mobile-overlay"></div>
+                    </div>
+               </div>
+          </header>
+          <main>
+               <section class="event d-flex align-items-center justify-content-center" style="background-image: url(./image/banner.jpg)">
+                    <div class="text container">
+                         <div class="wine mb-0 alien-bold">
+                              <h1>
+                                   wine country, windmills <br />
+                                   and a little wild west spirit
+                              </h1>
+                         </div>
+                         <div class="bouti source-senmi">
+                              <p>A boutique hotel in the heart of Buellton where pets, wedding parties and palates of all kinds are welcome</p>
+                         </div>
+                    </div>
+               </section>
+               <div class="calen align-items-end justify-content-center">
+                    <div class="day d-flex">
+                         <p class="source-senmi mb-0">arrive on</p>
+
+                         <h2><span class="source-bold mb-0">22</span> <span class="source-re">apr</span></h2>
+                    </div>
+                    <div class="day d-flex">
+                         <p class="source-senmmi mb-0">depart on</p>
+
+                         <h2><span class="source-bold mb-0">28</span> <span class="source-re">apr</span></h2>
+                    </div>
+                    <div class="check d-flex align-items-center justify-content-center">
+                         <h3 class="source-bold mb-0">check availability</h3>
+                    </div>
+               </div>
+               <section>
+                    <div class="banner">
+                         <div class="container">
+                              <div class="row slide0 d-flex align-items-center">
+                                   <div class="col-2">
+                                        <div class="ban">
+                                             <img src="/image/1.png" alt="#" />
+                                             <p>hiking activities</p>
                                         </div>
-                                    </div>
-                                    <img src="/image/platform-icon.png" alt="#">
-                                </div>
-                                <p class="source-re">Very tropical location deep in the mountains of the Big Island in
-                                    Volcano Village. The vibe is one of a laid back…
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 ">
-                        <div class="jessica">
-                            <div class="both-jes">
-                                <div class="infi d-flex justify-content-between">
-                                    <div class="imgin d-flex">
-                                        <img src="/image/lynda.png" alt="#">
-                                        <div class="starin">
-                                            <div class="star d-flex">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                            </div>
-                                            <h3 class="source-re">Lynda K.</h3>
+                                   </div>
+                                   <div class="col-2">
+                                        <div class="ban">
+                                             <img src="/image/2.png" alt="#" />
+                                             <p>jacuzzi & spa</p>
                                         </div>
-                                    </div>
-                                    <img src="/image/google.png" alt="#">
-                                </div>
-                                <p class="source-re">Just came back from brunch and I can highly recommend this
-                                    restaurant
-                                    when visiting the Volcano area...
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4 ">
-                        <div class="jessica">
-                            <div class="both-jes">
-                                <div class="infi d-flex justify-content-between">
-                                    <div class="imgin d-flex">
-                                        <img src="/image/jessica.png" alt="#">
-                                        <div class="starin">
-                                            <div class="star d-flex">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                                <img src="/image/Star Copy 3.png" alt="#">
-                                            </div>
-                                            <h3 class="source-re">Jessica Sowers</h3>
+                                   </div>
+                                   <div class="col-2">
+                                        <div class="ban">
+                                             <img src="/image/3.png" alt="#" />
+                                             <p>restaurent & bar</p>
                                         </div>
-                                    </div>
-                                    <img src="/image/google.png" alt="">
-                                </div>
-                                <p class="source-re">This place is so yummy with friendly staff and fast service.
-                                    Definitely
-                                    recommend to any visitors to Volcano!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <hr>
-        <section class="sightseer" style="background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAm-r2enYwYXThgcz9-Hf0LcNPafxY-1dYnA&usqp=CAU');">
-            <div class="container">
-                <h2 class="alien-bold mb-0">from the sightseers at #sidewaysinn</h2>
-                <div class="row">
-                    <div class="col-12 col-sm-6 col-xl-3">
-                        <div class="profile" style="background-image: url(image/si1.jpg);">
-                            <div class="hove">
-                                <img src="/image/hoversight.png" alt="#">
-                                <button type="button" class="btn btn-secondary btn-sm source-bold">VISIT
-                                    PROFILE</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-xl-3">
-                        <div class="profile" style="background-image: url(image/si2.jpg);">
-                            <div class="hove">
-                                <img src="/image/hoversight.png" alt="#">
-                                <button type="button" class="btn btn-secondary btn-sm source-bold">VISIT
-                                    PROFILE</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-xl-3">
-                        <div class="profile" style="background-image: url(image/si3.jpg);">
-                            <div class="hove">
-                                <img src="/image/hoversight.png" alt="#">
-                                <button type="button" class="btn btn-secondary btn-sm source-bold">VISIT
-                                    PROFILE</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-sm-6 col-xl-3">
-                        <div class="profile" style="background-image: url(image/si4.jpg);">
-                            <div class="hove">
-                                <img src="/image/hoversight.png" alt="#">
-                                <button type="button" class="btn btn-secondary btn-sm source-bold">VISIT
-                                    PROFILE</button>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <section class="scoop">
-            <div class="container">
-                <h2 class="alien-bold mb-0"> scoops and stories from sideways inn</h2>
-                <div class="row natural">
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="/image/na1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title mb-0 source-senmi">Bat Buddies at Shelter Cove</h5>
-                                <p class="card-text mb-0 source-re">At Shelter Cove, you may have the opportunity to see
-                                    a few of our bat buddies!</p>
-                                <a href="#" class="more source-senmi">READ MORE</a>
-
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="/image/na2.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title mb-0 source-senmi">5 Spooky Stories to Tell by the Crackling
-                                    Cmapfire...</h5>
-                                <p class="card-text mb-0 source-re">Spooky stories that range from kid-friendly to so
-                                    scary it will scare even the bravest ...</p>
-                                <a href="#" class="more source-senmi">READ MORE</a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="/image/na3.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title mb-0 source-senmi">Fall Escape at Odell Lake!</h5>
-                                <p class="card-text mb-0 source-re">Fall has arrived at Shelter Cove, bringing with it
-                                    beautiful Northwest scenery, bald eagle...</p>
-                                <a href="#" class="more source-senmi">READ MORE</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-4">
-                        <div class="card">
-                            <img src="/image/na4.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title mb-0 source-senmi">Bat Buddies at Shelter Cove</h5>
-                                <p class="card-text mb-0 source-re">At Shelter Cove, you may have the opportunity to see
-                                    a few of our bat buddies!</p>
-                                <a href="#" class="more source-senmi">READ MORE</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="answer">
-            <div class="container">
-                <div class="ans d-flex">
-
-                    <div class="text">
-                        <h2 class="alien-bold mb-0">Straightforward Answers to Your Questions About Sideways </h2>
-                    </div>
-
-
-                    <div class="see  d-flex justify-content-end">
-                        <img src="/image/line.svg" alt="#">
-                        <button type="button" class="btn btn-secondary source-bold">SEE FAQs HERE</button>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-        <section class="west">
-            <div class="container">
-                <div class="explore">
-                    <img src="/image/Bitmap.svg" alt="#">
-                    <div class="btn-group dropright">
-                        <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            EXPLORE OTHER LOCATIONS
-                        </button>
-                        <div class="dropdown-menu">
-                            <!-- Dropdown menu links -->
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </section>
-    </main>
-    <footer>
-        <section class="foot">
-            <div class="container">
-                <div class="row logofoot">
-                    <div class="col-12 col-lg-6 logoside">
-                        <div class="logo">
-                            <img src="/image/Logo-sidewaysinn.webp" alt="#">
-                        </div>
-                    </div>
-                    <div class="col-12 col-lg-6 availa">
-                        <div class="cafoot d-flex justify-content-end align-items-center">
-                            <div class=" day d-flex">
-
-                                <p class="source-senmi mb-0 ">arrive on</p>
-                
-                
-                                <h2><span class="source-bold mb-0">22</span> <span class="source-re">apr</span></h2>
-                
-                            </div>
-                            <div class=" day d-flex">
-                
-                                <p class="source-senmmi mb-0">depart on</p>
-                
-                                <h2><span class="source-bold mb-0">28</span> <span class="source-re">apr</span></h2>
-                            </div>
-                            <div class=" check d-flex align-items-center justify-content-center">
-                
-                                <h3 class="source-bold mb-0">check availability</h3>
-                
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="footer">
-            <div class="container">
-                <div class="allfoot">
-                    <div class="fin">
-                        <div class="row  firstfoot">
-                            <div class="col-12 col-lg-3 find-us">
-                                <h3 class="source-senmi">find us</h3>
-                                <p class="source-re">Sideways lnn 114 E Highway 246 Buellton, CA</p>
-                                <button type="button" class="btn btn-primary btn-lg source-senmi">LOCATE ON GOOGLE
-                                    MAPS</button>
-                            </div>
-                            <div class="col-lg-4 col-12 contact-us">
-                                <h3 class="source-senmi">contact us</h3>
-                                <a href="tel: (805)-688-8448">(805)-688-8448</a>
-                                <p class="source-re">sales@highwaywestvacations.com</p>
-                            </div>
-                            <div class="col-lg-5 col-12 notified">
-                                <h3 class="source-senmi">get notified</h3>
-                                <form class="needs-validation" novalidate>
-                                    <div class="name">
-                                        <div class="two d-flex justify-content-between">
-                                            <div class="first mb-3 mr-2">
-
-                                                <input type="text" class="form-control source-senmi"
-                                                    id="validationTooltip01" placeholder="First name"
-                                                    required>
-                                                <div class="valid-tooltip">
-                                                    Looks good!
-                                                </div>
-                                            </div>
-                                            <div class="last mb-3">
-
-                                                <input type="text" class="form-control source-senmi"
-                                                    id="validationTooltip02" placeholder="Last name"
-                                                    required>
-                                                <div class="valid-tooltip">
-                                                    Looks good!
-                                                </div>
-                                            </div>
+                                   </div>
+                                   <div class="col-2">
+                                        <div class="ban">
+                                             <img src="/image/4.png" alt="#" />
+                                             <p>livebbq sessions</p>
                                         </div>
-                                        <div class="email mb-3">
-                                            <div class="input-group">
-                                                <input type="text" class="form-control source-senmi"
-                                                    id="validationTooltip02" placeholder="Email address" required>
-                                                <div class="valid-tooltip">
-                                                    Looks good!
-                                                </div>
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text source-senmi"
-                                                        id="validationTooltipUsernamePrepend">NOTIFYME</span>
-                                                </div>
-                                            </div>
+                                   </div>
+                                   <div class="col-2">
+                                        <div class="ban">
+                                             <img src="/image/5.png" alt="#" />
+                                             <p>guided paragliding</p>
                                         </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
+                                   </div>
+                                   <div class="col-2">
+                                        <div class="ban">
+                                             <img src="/image/6.png" alt="#" />
+                                             <p>yoga & meditation</p>
+                                        </div>
+                                   </div>
+                                   <div class="col-2">
+                                        <div class="ban">
+                                             <img src="/image/4.png" alt="#" />
+                                             <p>livebbq sessions</p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
-                    <div class="second">
-                        <div class="row sefoot">
-                            <div class="col-12 col-lg-6 way">
-                                <p class="source-re">@2021 Highway West Vacations. All Rights Reserved.</p>
-                            </div>
-                            <div class="col-12 col-lg-6 pri">
-                                <ul class="cards d-flex mb-0 justify-content-between">
-                                    <li>Careers</li>
-                                    <li>Privacy Policy</li>
-                                    <li>Refund Policy</li>
-                                    <li> Cancellation</li>
-                                    <li>ADA Practices</li>
-                                </ul>
-                            </div>
-                        </div>
+               </section>
+               <section>
+                    <div class="about">
+                         <div class="container">
+                              <div class="row">
+                                   <div class="col-12 col-lg-8 picture">
+                                        <h2 class="alien-bold mb-0">
+                                             a picture - perfect place to stay <br />
+                                             in the heart of the santa ynez valley
+                                        </h2>
+                                        <p class="source-re mb-0">
+                                             If a photo's worth a thousand words, then Sideways Inn must be worth a whole library. From the first time
+                                             you walk into our windmill lobby to the last sip of your nightcap at Sideways Lounge, you’ll find more
+                                             photo opportunities than you ever fathomed. Like personal portraits at the pool. And group shots in front
+                                             of giant murals. And candid family photos around the fire pit. We’ve strategically designed our grounds
+                                             to provide charm around every corner and beauty from every angle. Because when you’re located in a place
+                                             as picturesque as the Santa Ynez Valley, it takes a lot of work to stand out.
+                                        </p>
+                                        <div class="read d-flex justify-content-between align-items-center">
+                                             <button type="button" class="btn btn-outline-secondary source-bold">READ FULL STORY</button>
+                                             <img src="/image/read.png" alt="#" />
+                                        </div>
+                                   </div>
+                                   <div class="col-12 col-lg-4 picimg">
+                                        <h2 class="alien-bold mb-0">
+                                             a picture - perfect place to stay <br />
+                                             in the heart of the santa ynez valley
+                                        </h2>
+                                        <div class="img-ab" style="background-image: url('/image/image.png')"></div>
+                                   </div>
+                              </div>
+                         </div>
                     </div>
-                </div>
-            </div>
-        </section>
+               </section>
 
-    </footer>
+               <section class="slide">
+                    <div class="container">
+                         <div class="row slide1">
+                              <div class="col-12 col-md-4">
+                                   <div class="slider d-flex align-items-end justify-content-center" style="background-image: url(image/slide1.png)">
+                                        <h3 class="aline-light">STAY</h3>
+                                   </div>
+                              </div>
+                              <div class="col-12 col-md-4">
+                                   <div class="slider d-flex align-items-end justify-content-center" style="background-image: url(image/slide2.png)">
+                                        <h3 class="aline-light">EXPRIENCE</h3>
+                                   </div>
+                              </div>
+                              <div class="col-12 col-md-4">
+                                   <div class="slider d-flex align-items-end justify-content-center" style="background-image: url(image/slide3.png)">
+                                        <h3 class="aline-light">DINE</h3>
+                                   </div>
+                              </div>
+                              <div class="col-12 col-md-4">
+                                   <div class="slider d-flex align-items-end justify-content-center" style="background-image: url(image/slide2.png)">
+                                        <h3 class="aline-light">EXPRIENCE</h3>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+               <hr />
+               <section class="infor">
+                    <div class="container">
+                         <h2 class="alien-bold">check out what guests had to say after checking out</h2>
+                         <div class="row main-infor">
+                              <div class="col-4">
+                                   <div class="jessica">
+                                        <div class="both-jes">
+                                             <div class="infi d-flex justify-content-between">
+                                                  <div class="imgin d-flex">
+                                                       <img src="/image/jessica.png" alt="#" />
+                                                       <div class="starin">
+                                                            <div class="star d-flex">
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                            </div>
+                                                            <h3 class="source-re">Jessica Sowers</h3>
+                                                       </div>
+                                                  </div>
+                                                  <img src="/image/google.png" alt="" />
+                                             </div>
+                                             <p class="source-re">
+                                                  This place is so yummy with friendly staff and fast service. Definitely recommend to any visitors to
+                                                  Volcano!
+                                             </p>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-4">
+                                   <div class="jessica">
+                                        <div class="both-jes">
+                                             <div class="infi d-flex justify-content-between">
+                                                  <div class="imgin d-flex">
+                                                       <img src="/image/jimmy.png" alt="#" />
+                                                       <div class="starin">
+                                                            <div class="star d-flex">
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                            </div>
+                                                            <h3 class="source-re">Jimmy Kim</h3>
+                                                       </div>
+                                                  </div>
+                                                  <img src="/image/platform-icon.png" alt="#" />
+                                             </div>
+                                             <p class="source-re">
+                                                  Very tropical location deep in the mountains of the Big Island in Volcano Village. The vibe is one
+                                                  of a laid back…
+                                             </p>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-4">
+                                   <div class="jessica">
+                                        <div class="both-jes">
+                                             <div class="infi d-flex justify-content-between">
+                                                  <div class="imgin d-flex">
+                                                       <img src="/image/lynda.png" alt="#" />
+                                                       <div class="starin">
+                                                            <div class="star d-flex">
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                            </div>
+                                                            <h3 class="source-re">Lynda K.</h3>
+                                                       </div>
+                                                  </div>
+                                                  <img src="/image/google.png" alt="#" />
+                                             </div>
+                                             <p class="source-re">
+                                                  Just came back from brunch and I can highly recommend this restaurant when visiting the Volcano
+                                                  area...
+                                             </p>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-4">
+                                   <div class="jessica">
+                                        <div class="both-jes">
+                                             <div class="infi d-flex justify-content-between">
+                                                  <div class="imgin d-flex">
+                                                       <img src="/image/jessica.png" alt="#" />
+                                                       <div class="starin">
+                                                            <div class="star d-flex">
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                                 <img src="/image/Star Copy 3.png" alt="#" />
+                                                            </div>
+                                                            <h3 class="source-re">Jessica Sowers</h3>
+                                                       </div>
+                                                  </div>
+                                                  <img src="/image/google.png" alt="" />
+                                             </div>
+                                             <p class="source-re">
+                                                  This place is so yummy with friendly staff and fast service. Definitely recommend to any visitors to
+                                                  Volcano!
+                                             </p>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+               <hr />
+               <section
+                    class="sightseer"
+                    style="
+                         background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAm-r2enYwYXThgcz9-Hf0LcNPafxY-1dYnA&usqp=CAU');
+                    "
+               >
+                    <div class="container">
+                         <h2 class="alien-bold mb-0">from the sightseers at #sidewaysinn</h2>
+                         <div class="row">
+                              <div class="col-12 col-sm-6 col-xl-3">
+                                   <div class="profile" style="background-image: url(image/si1.jpg)">
+                                        <div class="hove">
+                                             <img src="/image/hoversight.png" alt="#" />
+                                             <button type="button" class="btn btn-secondary btn-sm source-bold">VISIT PROFILE</button>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-xl-3">
+                                   <div class="profile" style="background-image: url(image/si2.jpg)">
+                                        <div class="hove">
+                                             <img src="/image/hoversight.png" alt="#" />
+                                             <button type="button" class="btn btn-secondary btn-sm source-bold">VISIT PROFILE</button>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-xl-3">
+                                   <div class="profile" style="background-image: url(image/si3.jpg)">
+                                        <div class="hove">
+                                             <img src="/image/hoversight.png" alt="#" />
+                                             <button type="button" class="btn btn-secondary btn-sm source-bold">VISIT PROFILE</button>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-12 col-sm-6 col-xl-3">
+                                   <div class="profile" style="background-image: url(image/si4.jpg)">
+                                        <div class="hove">
+                                             <img src="/image/hoversight.png" alt="#" />
+                                             <button type="button" class="btn btn-secondary btn-sm source-bold">VISIT PROFILE</button>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+               <section class="scoop">
+                    <div class="container">
+                         <h2 class="alien-bold mb-0">scoops and stories from sideways inn</h2>
+                         <div class="row natural">
+                              <div class="col-4">
+                                   <div class="card">
+                                        <img src="/image/na1.jpg" class="card-img-top" alt="..." />
+                                        <div class="card-body">
+                                             <h5 class="card-title mb-0 source-senmi">Bat Buddies at Shelter Cove</h5>
+                                             <p class="card-text mb-0 source-re">
+                                                  At Shelter Cove, you may have the opportunity to see a few of our bat buddies!
+                                             </p>
+                                             <a href="#" class="more source-senmi">READ MORE</a>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-4">
+                                   <div class="card">
+                                        <img src="/image/na2.jpg" class="card-img-top" alt="..." />
+                                        <div class="card-body">
+                                             <h5 class="card-title mb-0 source-senmi">5 Spooky Stories to Tell by the Crackling Cmapfire...</h5>
+                                             <p class="card-text mb-0 source-re">
+                                                  Spooky stories that range from kid-friendly to so scary it will scare even the bravest ...
+                                             </p>
+                                             <a href="#" class="more source-senmi">READ MORE</a>
+                                        </div>
+                                   </div>
+                              </div>
 
+                              <div class="col-4">
+                                   <div class="card">
+                                        <img src="/image/na3.jpg" class="card-img-top" alt="..." />
+                                        <div class="card-body">
+                                             <h5 class="card-title mb-0 source-senmi">Fall Escape at Odell Lake!</h5>
+                                             <p class="card-text mb-0 source-re">
+                                                  Fall has arrived at Shelter Cove, bringing with it beautiful Northwest scenery, bald eagle...
+                                             </p>
+                                             <a href="#" class="more source-senmi">READ MORE</a>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="col-4">
+                                   <div class="card">
+                                        <img src="/image/na4.jpg" class="card-img-top" alt="..." />
+                                        <div class="card-body">
+                                             <h5 class="card-title mb-0 source-senmi">Bat Buddies at Shelter Cove</h5>
+                                             <p class="card-text mb-0 source-re">
+                                                  At Shelter Cove, you may have the opportunity to see a few of our bat buddies!
+                                             </p>
+                                             <a href="#" class="more source-senmi">READ MORE</a>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+               <section class="answer">
+                    <div class="container">
+                         <div class="ans d-flex">
+                              <div class="text">
+                                   <h2 class="alien-bold mb-0">Straightforward Answers to Your Questions About Sideways</h2>
+                              </div>
 
+                              <div class="see d-flex justify-content-end">
+                                   <img src="/image/line.svg" alt="#" />
+                                   <button type="button" class="btn btn-secondary source-bold">SEE FAQs HERE</button>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+               <section class="west">
+                    <div class="container">
+                         <div class="explore">
+                              <img src="/image/Bitmap.svg" alt="#" />
+                              <div class="btn-group dropright">
+                                   <button
+                                        type="button"
+                                        class="btn btn-secondary dropdown-toggle"
+                                        data-toggle="dropdown"
+                                        aria-haspopup="true"
+                                        aria-expanded="false"
+                                   >
+                                        EXPLORE OTHER LOCATIONS
+                                   </button>
+                                   <div class="dropdown-menu">
+                                        <!-- Dropdown menu links -->
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+          </main>
+          <footer>
+               <section class="foot">
+                    <div class="container">
+                         <div class="row logofoot">
+                              <div class="col-12 col-lg-6 logoside">
+                                   <div class="logo">
+                                        <img src="/image/Logo-sidewaysinn.webp" alt="#" />
+                                   </div>
+                              </div>
+                              <div class="col-12 col-lg-6 availa">
+                                   <div class="cafoot d-flex justify-content-end align-items-center">
+                                        <div class="day d-flex">
+                                             <p class="source-senmi mb-0">arrive on</p>
 
+                                             <h2><span class="source-bold mb-0">22</span> <span class="source-re">apr</span></h2>
+                                        </div>
+                                        <div class="day d-flex">
+                                             <p class="source-senmmi mb-0">depart on</p>
 
+                                             <h2><span class="source-bold mb-0">28</span> <span class="source-re">apr</span></h2>
+                                        </div>
+                                        <div class="check d-flex align-items-center justify-content-center">
+                                             <h3 class="source-bold mb-0">check availability</h3>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
-        crossorigin="anonymous"></script>
+               <section class="footer">
+                    <div class="container">
+                         <div class="allfoot">
+                              <div class="fin">
+                                   <div class="row firstfoot">
+                                        <div class="col-12 col-lg-3 find-us">
+                                             <h3 class="source-senmi">find us</h3>
+                                             <p class="source-re">Sideways lnn 114 E Highway 246 Buellton, CA</p>
+                                             <button type="button" class="btn btn-primary btn-lg source-senmi">LOCATE ON GOOGLE MAPS</button>
+                                        </div>
+                                        <div class="col-lg-4 col-12 contact-us">
+                                             <h3 class="source-senmi">contact us</h3>
+                                             <a href="tel: (805)-688-8448">(805)-688-8448</a>
+                                             <p class="source-re">sales@highwaywestvacations.com</p>
+                                        </div>
+                                        <div class="col-lg-5 col-12 notified">
+                                             <h3 class="source-senmi">get notified</h3>
+                                             <form class="needs-validation" novalidate>
+                                                  <div class="name">
+                                                       <div class="two d-flex justify-content-between">
+                                                            <div class="first mb-3 mr-2">
+                                                                 <input
+                                                                      type="text"
+                                                                      class="form-control source-senmi"
+                                                                      id="validationTooltip01"
+                                                                      placeholder="First name"
+                                                                      required
+                                                                 />
+                                                                 <div class="valid-tooltip">Looks good!</div>
+                                                            </div>
+                                                            <div class="last mb-3">
+                                                                 <input
+                                                                      type="text"
+                                                                      class="form-control source-senmi"
+                                                                      id="validationTooltip02"
+                                                                      placeholder="Last name"
+                                                                      required
+                                                                 />
+                                                                 <div class="valid-tooltip">Looks good!</div>
+                                                            </div>
+                                                       </div>
+                                                       <div class="email mb-3">
+                                                            <div class="input-group">
+                                                                 <input
+                                                                      type="text"
+                                                                      class="form-control source-senmi"
+                                                                      id="validationTooltip02"
+                                                                      placeholder="Email address"
+                                                                      required
+                                                                 />
+                                                                 <div class="valid-tooltip">Looks good!</div>
+                                                                 <div class="input-group-prepend">
+                                                                      <span
+                                                                           class="input-group-text source-senmi"
+                                                                           id="validationTooltipUsernamePrepend"
+                                                                           >NOTIFYME</span
+                                                                      >
+                                                                 </div>
+                                                            </div>
+                                                       </div>
+                                                  </div>
+                                             </form>
+                                        </div>
+                                   </div>
+                              </div>
+                              <div class="second">
+                                   <div class="row sefoot">
+                                        <div class="col-12 col-lg-6 way">
+                                             <p class="source-re">@2021 Highway West Vacations. All Rights Reserved.</p>
+                                        </div>
+                                        <div class="col-12 col-lg-6 pri">
+                                             <ul class="cards d-flex mb-0 justify-content-between">
+                                                  <li>Careers</li>
+                                                  <li>Privacy Policy</li>
+                                                  <li>Refund Policy</li>
+                                                  <li>Cancellation</li>
+                                                  <li>ADA Practices</li>
+                                             </ul>
+                                        </div>
+                                   </div>
+                              </div>
+                         </div>
+                    </div>
+               </section>
+          </footer>
 
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript" src="./script.js"></script>
-</body>
+          <script
+               src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+               integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+               crossorigin="anonymous"
+          ></script>
+          <script
+               src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+               integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+               crossorigin="anonymous"
+          ></script>
 
+          <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+          <script type="text/javascript" src="./script.js"></script>
+     </body>
 </html>

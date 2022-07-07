@@ -10,3 +10,6 @@
 .col, [class*=col-] {
     padding: 0 10px;
 }
+html.no-scroll {
+    overflow: hidden;
+}
