@@ -1,6 +1,6 @@
 $(document).ready(function () {
-   showMenuMobile();
-   fixedCheckAvailability()
+     showMenuMobile();
+     fixedCheckAvailability();
 
      $('.slide1').slick({
           slidesToShow: 3,
@@ -148,18 +148,21 @@ $(document).ready(function () {
                     $('html').removeClass('no-scroll');
                }
           });
-   }
-   
-   function fixedCheckAvailability() {
-      $(window).scroll(function () {
-           var bottomWindow = window.pageYOffset + window.innerHeight;
-           var topFooter = $('footer').offset().top;
-           var homeCheckavailability = $('.calen');
-           if (bottomWindow >= topFooter) {
-                homeCheckavailability.addClass('d-none');
-           } else if (homeCheckavailability.hasClass('d-none')) {
-                homeCheckavailability.removeClass('d-none');
-           }
-      });
- }
+     }
+
+     function fixedCheckAvailability() {
+          $(window).scroll(function () {
+               var bottomWindow = window.pageYOffset + window.innerHeight;
+               var topFooter = $('footer').offset().top;
+               var homeCheckavailability = $('.calen');
+               if (bottomWindow >= topFooter) {
+                    homeCheckavailability.addClass('d-none');
+               } else if (homeCheckavailability.hasClass('d-none')) {
+                    homeCheckavailability.removeClass('d-none');
+               }
+          });
+     }
+
+
+     AOS.init();
 });
